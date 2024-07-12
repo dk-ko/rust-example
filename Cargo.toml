@@ -3,4 +3,12 @@ name = "rust-example"
 version = "0.1.0"
 edition = "2021"
 
+[[bin]]
+name = "hello"
+path = "src/ch1/hello.rs"
+
+[[bin]]
+name = "show_price"
+path = "src/ch1/show_price.rs"
+
 [dependencies]
